@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en LoginScreen Debe renderizar el componente correctamente 1`] = `
+<Memo()>
+  <h3
+    className="auth__title"
+  >
+    Login
+  </h3>
+  <form
+    className="animate__animated animate__fadeInUp animate__faster"
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="auth__input"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      type="text"
+      value=""
+    />
+    <input
+      autoComplete="current-password"
+      className="auth__input mt-3"
+      name="password"
+      onChange={[Function]}
+      placeholder="password"
+      type="password"
+      value=""
+    />
+    <button
+      className="btn btn-success btn-block mt-2"
+      disabled={false}
+      type="submit"
+    >
+      Login
+    </button>
+    <div
+      className="auth__social-networks"
+    >
+      <p>
+        Login with Social Networks 
+      </p>
+      <div
+        className="google-btn"
+        onClick={[Function]}
+      >
+        <div
+          className="google-icon-wrapper"
+        >
+          <img
+            alt="google button"
+            className="google-icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+          />
+        </div>
+        <p
+          className="btn-text"
+        >
+          <b>
+            Sign in with google
+          </b>
+        </p>
+      </div>
+    </div>
+    <a
+      className="link"
+      href="/auth/register"
+      onClick={[Function]}
+    >
+      Create new account
+    </a>
+  </form>
+</Memo()>
+`;

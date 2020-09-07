@@ -1,0 +1,17 @@
+@import './base/settings';
+@import './base/base';
+
+//Componentes
+@import './components/auth';
+//botones
+@import './components/button';
+//link
+@import './components/links';
+//Journal
+@import './components/journal';
+
+@import './components/nothing';
+
+@import './components/notes';
+
+@import '~bootstrap/scss/bootstrap';
